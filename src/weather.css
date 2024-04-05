@@ -1,0 +1,63 @@
+/* weather.css */
+
+.weather-container {
+  background-image: url('img.avif'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-content {
+  background-color: rgba(255, 255, 255, 0.95); /* Adjust transparency as needed */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  max-width: 800px; /* Limit the width of the content */
+  width: 100%;
+}
+
+.weather-table {
+  width: 100%;
+  border-collapse: collapse; /* Merge borders */
+}
+
+.weather-table th,
+.weather-table td {
+  padding: 15px; /* Increase padding for better spacing */
+  border-bottom: 1px solid #ddd; /* Soften border color */
+}
+
+.weather-table th {
+  text-align: left;
+  border-top: 2px solid #ddd; /* Soften border color */
+}
+
+.weather-table tr:last-child td {
+  border-bottom: none; /* Remove bottom border from last row */
+}
+
+.refresh-button {
+  margin-top: 20px;
+  padding: 15px 30px; /* Increase padding for better appearance */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.refresh-button:hover {
+  background-color: #0056b3; /* Darken color on hover */
+}
+
+.expandable-details {
+  margin-top: 30px; /* Adjust spacing */
+  padding: 20px;
+  background-color: #f7f7f7; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
